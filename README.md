@@ -66,7 +66,7 @@ _Notes:_
 
 * This should not be considered "production" code.
   * Winamp2-js does not support Internet Explorer.
-  * Winamp2-js was built to run on it's own page, it may not play well with surrounding CSS.
+  * Winamp2-js was built to run on its own page, it may not play well with surrounding CSS.
 * You will probably need to include [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) on the page that includes Winamp2-js.
 * Skin and audio URLs are subject to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS). Please ensure they are either served from the same domain, or that the other domain is served with the correct headers.
 * This API is subject to change at any time.
@@ -84,8 +84,9 @@ Open `http://localhost:8080/webpack-dev-server/` in your browser.
 
     npm install
     npm run build
+    npm run serve
 
-Open `index.html` in your browser.
+Open the local ip/port that is output to the console in your browser.
 
 ## Deploying
 

@@ -287,10 +287,10 @@ exports[`MainWindow renders to snapshot 1`] = `
     step="1"
     style={
       Object {
-        "backgroundPosition": "0 --15px",
+        "backgroundPosition": "0 -0px",
       }
     }
-    title="Panning Bar"
+    title="Balance"
     type="range"
     value={0}
   />
@@ -307,8 +307,6 @@ exports[`MainWindow renders to snapshot 1`] = `
       className="selected"
       id="playlist-button"
       onClick={[Function]}
-      onMouseDown={[Function]}
-      onMouseUp={[Function]}
       title="Toggle Playlist Editor"
     />
   </div>
